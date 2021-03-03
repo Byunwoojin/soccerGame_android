@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CharacterChoose">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="2dp"
+        android:text="캐릭터 선택"
+        android:background="#BFA38A"
+        android:layout_gravity="center_vertical"
+        android:textColor="#261712"
+        android:textSize="18dp" />
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:background="#D9C5B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spacing="5dp"/>
+
+    <ImageView
+        android:id="@+id/ivCharacter"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:padding="20dp" />
+
+
+    <TextView
+        android:id="@+id/tvCharacter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Select" />
+
+</LinearLayout>

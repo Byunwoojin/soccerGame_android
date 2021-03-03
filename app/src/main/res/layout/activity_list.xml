@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/menuLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#F4DAD9"
+        android:orientation="horizontal"
+        android:tag="1">
+
+        <ImageView
+            android:id="@+id/menu1Image"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/menu1" />
+
+        <TextView
+            android:id="@+id/menu1Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="골키퍼 게임\n시작하기"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#F0C8C6"
+        android:orientation="horizontal"
+        android:tag="2">
+
+        <ImageView
+            android:id="@+id/menu2Image"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:id="@+id/menu2Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="게임 알람\n설정하기"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#E5B0AA"
+        android:orientation="horizontal"
+        android:tag="3">
+
+        <ImageView
+            android:id="@+id/menu3Image"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/menu3" />
+
+        <TextView
+            android:id="@+id/menu3Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="로그아웃"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </LinearLayout>
+

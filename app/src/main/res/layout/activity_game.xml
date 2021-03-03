@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundView1"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:src="@color/brightblue" />
+
+
+    <ImageView
+        android:id="@+id/imageGoalPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageGoalKeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageGoalPost"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/goalkeeper1"
+         />
+
+    <ImageView
+        android:id="@+id/backgroundView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:src="@color/brightgreen" />
+
+    <ImageView
+        android:id="@+id/imageBall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/backgroundView2"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/football" />
+
+    <Button
+        android:id="@+id/gameBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="Start" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:progress="400" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:numStars="5"
+        android:progressTint="#FFEB3B"
+        android:isIndicator="true"
+        android:rating="5" />
+
+</RelativeLayout>
